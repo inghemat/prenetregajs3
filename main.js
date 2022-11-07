@@ -1,4 +1,3 @@
-
 class Producto {
     constructor(id, nombre, precio, img) {
         this.id = id;
@@ -9,20 +8,20 @@ class Producto {
     }
 }
 
-const arroz = new Producto(1, "Arroz", 100, "img/arroz.png");
-const azucar = new Producto(2, "Azucar", 50, "img/azucar.png");
-const fideos = new Producto(3, "Fideos", 80, "img/fideos.png");
-const mermelada = new Producto(4, "Mermelada", 150, "img/mermelada.png");
-const queso = new Producto(5, "Queso", 200, "img/queso.png");
-const sal = new Producto(6, "Sal", 30, "img/sal.png");
-const tomate = new Producto(7,"Tomate", 70, "img/tomate.png");
-const yerba = new Producto(8, "Yerba", 120, "img/yerba.png");
+const marimonda = new Producto(1, "Bote Marimonda", 150, "imagenes/botemarimonda.jpeg");
+const rumbalee = new Producto(2, "Bote Rumbalee", 160, "imagenes/boterumbalee.jpeg");
+const islasol = new Producto(3, "Isla Sol", 40, "imagenes/islasol.jpeg");
+const rumbanight = new Producto(4, "Fiesta Nigth Fenix", 60, "imagenes/nigthfenix.jpg");
+const encantada = new Producto(5, "Playa Encantada", 30, "imagenes/playaencantada.jpeg");
+const eteka = new Producto(6, "Playa Eteka", 30, "imagenes/playaeteka.jpg");
+const fortificaciones = new Producto(7,"Tour Fortificaciones", 70, "Imagenes/tourfortificaciones.jpg");
+const gastro = new Producto(8, "Gastro Tour", 100, "Imagenes/tourgastronomico.jpeg");
 
 //Creamos un Array con todo nuestro catálogo de productos: 
 
-const productos = [arroz, azucar, fideos, mermelada, queso, sal, tomate, yerba];
+const productos = [marimonda, rumbalee, islasol, rumbanight, encantada, eteka, fortificaciones, gastro];
 
-//Creamos el array carrito 
+//Creamos el array del carrito 
 
 let carrito = [];
 
@@ -92,7 +91,7 @@ verCarrito.addEventListener("click", () => {
     mostrarCarrito();
 });
 
-//Función para mostrar el Carrillooo: 
+//Función para mostrar el Carrito de compras: 
 
 const mostrarCarrito = () => {
     contenedorCarrito.innerHTML="";

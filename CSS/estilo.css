@@ -343,3 +343,28 @@ body {
 .pers a {
   position: sticky !important;
 }
+
+/* Agregando CSS a nuestro carrito*/
+
+.imgProductos {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.colorBoton {
+  color:white;
+  background-color: RGB(40, 159, 218, 255);
+}
+
+.colorBoton:hover {
+  background-color: #e43c5c;
+  color: white;
+}
